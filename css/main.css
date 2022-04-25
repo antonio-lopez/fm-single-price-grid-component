@@ -668,6 +668,30 @@ html {
   color: hsl(204 43% 93% / var(--tw-text-opacity));
 }
 
+.text-grayishBlue\/50 {
+  color: hsl(218 22% 67% / 0.5);
+}
+
+.text-grayishBlue\/25 {
+  color: hsl(218 22% 67% / 0.25);
+}
+
+.text-grayishBlue\/70 {
+  color: hsl(218 22% 67% / 0.7);
+}
+
+.text-lightGray\/70 {
+  color: hsl(204 43% 93% / 0.7);
+}
+
+.text-lightGray\/80 {
+  color: hsl(204 43% 93% / 0.8);
+}
+
+.text-lightGray\/90 {
+  color: hsl(204 43% 93% / 0.9);
+}
+
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
