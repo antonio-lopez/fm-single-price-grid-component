@@ -686,9 +686,14 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:bg-brightYellow:hover {
+.hover\:bg-\[\#e6ee6b\]:hover {
   --tw-bg-opacity: 1;
-  background-color: hsl(71 73% 54% / var(--tw-bg-opacity));
+  background-color: rgb(230 238 107 / var(--tw-bg-opacity));
+}
+
+.hover\:text-slate-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
