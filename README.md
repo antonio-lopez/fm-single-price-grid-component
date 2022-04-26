@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-solution-using-tailwind-css-BJUrwT4H5)
+- [Live site URL](https://antonio-single-price-grid-component.netlify.app/)
 
 ## My process
 
