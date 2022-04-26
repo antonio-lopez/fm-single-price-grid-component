@@ -20,45 +20,40 @@
     />
 
     <title>Frontend Mentor | Single Price Grid Component</title>
-
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body class="bg-[#e5eff5]">
-    <div class="container h-screen mx-auto px-6">
+    <div class="container h-screen mx-auto px-6 md:max-w-2xl">
       <div class="flex h-full">
         <!-- grid container -->
-        <div class="grid grid-col-1 m-auto">
+        <div class="grid grid-col-1 m-auto md:grid-cols-2">
           <!-- grid 1 -->
-          <div class="bg-white rounded-t-md p-6">
+          <div class="bg-white rounded-t-md p-6 md:col-span-2">
             <h1 class="text-cyan text-xl font-bold">Join our community</h1>
             <p class="text-brightYellow py-4">
               30-day, hassle-free money back guarantee
             </p>
-            <p class="text-grayishBlue/70 tracking-tighter pb-4">
+            <p
+              class="text-grayishBlue/70 tracking-tighter pb-4 md:tracking-normal"
+            >
               Gain access to our full library of tutorials along with expert
               code reviews. Perfect for any developers who are serious about
               honing their skills.
             </p>
           </div>
           <!-- grid 2 -->
-          <div class="bg-cyan p-6">
+          <div class="bg-cyan p-6 md:rounded-bl-md">
             <h1 class="font-bold text-slate-50">Monthly Subscription</h1>
             <div class="py-3">
               <span class="text-slate-50 text-3xl font-bold"> &dollar;29 </span>
-              <span class="text-lightGray/50 pb">per month</span>
+              <span class="text-lightGray/50 h-10 inline-flex align-middle px-1"
+                >per month</span
+              >
               <p class="text-slate-50">
                 Full access for less than &dollar;1 a day
               </p>
             </div>
             <div class="pt-5 pb-2 text-center">
+              <!-- button -->
               <a
                 href="/#"
                 class="shadow-lg bg-brightYellow p-3 px-24 text-white font-bold rounded-md align-middle hover:bg-brightYellow"
@@ -68,7 +63,9 @@
             </div>
           </div>
           <!-- grid 3 -->
-          <div class="bg-offCyan rounded-b-md p-6">
+          <div
+            class="bg-offCyan rounded-b-md p-6 md:rounded-b-none md:rounded-br-md"
+          >
             <h1 class="font-bold text-slate-50 pb-4">Why Us</h1>
             <ul class="text-lightGray text-sm">
               <li>Tutorials by industry experts</li>
@@ -82,15 +79,5 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer>
   </body>
 </html>
